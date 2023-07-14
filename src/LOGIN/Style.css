@@ -1,0 +1,76 @@
+/* body {
+  background-image: url('https://i.postimg.cc/GtSqKHZ2/pic2.jpg');
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+} */
+/* .form-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  box-shadow:0 0 10px rgba(0, 0, 0, 0.2)
+} */
+
+.login-container {
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  margin: 0 auto;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  background:rgba(0, 0, 0, 0.5); 
+  position: absolute;
+  background-color:lavender;
+  margin-left: auto;
+  text-align: center;
+  
+}
+
+.login-container h1 {
+  text-align: center;
+  padding: 0;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.login-container p.error-message {
+  color: #ff0000;
+  margin-bottom: 10px;
+}
+
+.login-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+

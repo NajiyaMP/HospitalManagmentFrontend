@@ -1,0 +1,78 @@
+/* Admin.css */
+
+.container {
+  text-align: center;
+  /* max-width: 600px; */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  /* width: 100%; */
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.nav-dropdown {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.nav-dropdown .dropdown-toggle::after {
+  display: none;
+}
+
+.nav-dropdown .dropdown-menu {
+  min-width: 150px;
+}
+
+.nav-dropdown .dropdown-item {
+  padding: 8px 16px;
+  color: #333;
+  text-decoration: none;
+  display: block;
+}
+
+.nav-dropdown .dropdown-item:hover {
+  background-color:grey;
+}
+
